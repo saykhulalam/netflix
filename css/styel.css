@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1183px;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+/* =========nav start========== */
+nav {
+  margin-top: 28px;
+  position: absolute !important;
+  width: 100%;
+}
+nav .english {
+  border: 1px solid #ffffff;
+  padding: 1px 12px;
+  border-radius: 4px;
+}
+nav .english h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 5px;
+}
+nav .english i {
+  font-size: 16px;
+  color: #ffffff;
+}
+nav .english {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+nav .end-button {
+  width: 75px;
+  height: 32px;
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  margin-left: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+nav .end-button:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  transition: 0.4s;
+}
+/* =========nav end========== */
+/* <!-- ========banner section start========= --> */
+#banner {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 285px;
+  padding-bottom: 190px;
+}
+#banner .banner-text h1 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 17px;
+}
+#banner .banner-text h3 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#banner .banner-text h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+#banner .input-box input {
+  width: 586px;
+  height: 56px;
+  background-color: rgba(22, 22, 22, 70%);
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 70%);
+}
+#banner .input-box input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 16px;
+}
+#banner .input-box button {
+  width: 202px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #e50914;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 8px;
+}
+#banner .input-box button:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: 0.4s;
+}
+#banner .input-box button i {
+  margin-left: 16px;
+}
+#banner .input-box {
+  text-align: center;
+}
+.popcon .main .text-areya h2 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+.popcon .main .text-areya h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.popcon .main .text-areya a {
+  color: #448ef4;
+  font-size: 16px;
+  font-weight: 400;
+}
+.popcon .main .text-areya a i {
+  font-size: 24px;
+  margin-left: 7px;
+}
+.popcon {
+  height: 144px;
+  background-image: linear-gradient(to right, #448EF4, #FF661D,#0029FF, #7D2889 );
+}
+.popcon .main {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+/* <!-- ========banner section end========= --> */
+/* ===========enjoy section start========== */
+#enjoy {
+  background-color: black;
+  padding: 100px 0;
+}
+#enjoy .text-areya h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+#enjoy .text-areya p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.shep {
+  height: 8px;
+  background-color: #232323;
+}
+/* ===========enjoy section end========== */
+/* <!-- ========watch section start========= --> */
+#watch {
+  background-color: black;
+  padding: 100px 0;
+}
+#watch .text-areya h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+#watch .text-areya p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.tv-img-2 {
+  width: 100%;
+}
+/* <!-- ========watch section end========= --> */
+/* <!-- ============kids section start=============== --> */
+.kids-img {
+  width: 100%;
+}
+#kids {
+  background-color: black;
+  padding: 100px 0;
+}
+#kids .text-areya h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+#kids .text-areya p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* <!-- ============kids section end=============== --> */
+/* ================ofline section start============= */
+#offline h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#offline {
+  background-color: black;
+  padding: 100px 0;
+}
+#offline .text-areya {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+#offline .text-areya p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* ================ofline section end============= */
+/* <!-- ==========asked section start========= --> */
+#asked {
+  background-color: black;
+  padding-top: 65px;
+  padding-bottom: 72px;
+}
+#asked .taitel h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#asked .main {
+  height: 84px;
+  width: auto;
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+#asked .main h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+#asked .main i {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+#asked .last h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 46px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#asked .last input {
+  width: 586px;
+  height: 56px;
+  background-color: rgba(22, 22, 22, 70%);
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 70%);
+}
+#asked .last input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 16px;
+}
+#asked .last button {
+  width: 202px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #e50914;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 8px;
+}
+#asked .last button:hover{
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: 0.4s;
+}
+#asked .last{
+    text-align: center;
+}
+/* <!-- ==========asked section end========= --> */
+/* =========footer section start========= */
+#footer{
+    background-color: black;
+    padding-top: 64px;
+    padding-bottom: 30px;
+}
+#footer h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+#footer span{
+    text-decoration: underline;
+}
+#footer .one a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+#footer .one .english-tow{
+  width: 130px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  padding: 1px 12px;
+  border-radius: 4px;
+}
+#footer .one .english-tow h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 25px;
+}
+#footer .one .english-tow{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#footer .one .english-tow i{
+    font-size: 16px;
+    color: #ffffff;
+}
+#footer .tow a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+#footer .three a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+#footer .fore a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+/* =========footer section end========= */
